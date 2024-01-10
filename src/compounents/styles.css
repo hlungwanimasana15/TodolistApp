@@ -1,0 +1,86 @@
+.App {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+   
+   
+  }
+  
+  .auth-form-container, .login-form, .register-form {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    background-color: #f7eeeee8;
+    padding: 20px;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .auth-form-container {
+      padding: 5rem;
+      border: 1px solid white;
+      border-radius: 10px;
+      margin: 0.5rem;
+    }
+  }
+  input[type=text]{
+    /* width: 100%; */
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 5px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  
+  }
+  input[type=submit] {
+    width: 100%;
+   height: auto;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   
+  }
+  
+  label {
+    color: rgb(13, 2, 2);
+    text-align: left;
+    padding: 0.25rem 0;
+  }
+  
+  input {
+    width: 100%;
+  background-color: #fbfffb;
+  /* color: rgb(14, 13, 13); */
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* color: rgb(16, 11, 11); */
+}
+  
+  
+  button {
+    height: 40px;
+    width: 90px;
+    border: 3px;
+    background-color: rgb(139, 129, 129);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: medium;
+    cursor: pointer;
+    color: #d9d6de;
+  }
+  
+  .link-btn {
+    background: none;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  }
+  
+
+  
